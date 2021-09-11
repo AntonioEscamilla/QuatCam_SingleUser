@@ -1,0 +1,592 @@
+{
+  "cameras": {
+    "cam1": {
+      "model": "standard",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "K": [
+        [
+          843.5213403501839,
+          0.0,
+          951.7932629090899
+        ],
+        [
+          0.0,
+          837.6010027156198,
+          578.807882728484
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dist": [
+        [
+          0.04164318588484843,
+          -0.08565368565853529,
+          -0.0020658113536256486,
+          0.00567706883610105,
+          0.02267012156161767
+        ]
+      ]
+    },
+    "cam2": {
+      "model": "standard",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "K": [
+        [
+          832.6886126237416,
+          0.0,
+          933.5169781145382
+        ],
+        [
+          0.0,
+          826.7096425572728,
+          527.7788856042212
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dist": [
+        [
+          0.0211040972635541,
+          -0.04242079707720234,
+          -0.0024742712667724168,
+          -0.005286809349385902,
+          -0.003180669608823089
+        ]
+      ]
+    },
+    "cam3": {
+      "model": "standard",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "K": [
+        [
+          844.4184103344011,
+          0.0,
+          947.9307155835983
+        ],
+        [
+          0.0,
+          844.1374725181342,
+          508.1184716701318
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dist": [
+        [
+          0.07694056131807409,
+          -0.21328090375231104,
+          -0.0020178780167701975,
+          0.005951331929634851,
+          0.14745264106804096
+        ]
+      ]
+    },
+    "cam4": {
+      "model": "standard",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "K": [
+        [
+          841.1903054957173,
+          0.0,
+          916.2178424741895
+        ],
+        [
+          0.0,
+          838.2064556335389,
+          537.9666256093325
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dist": [
+        [
+          0.03066527643121718,
+          -0.07897826542124972,
+          -0.003299097979656667,
+          -0.0028902929186898356,
+          0.015235645226158594
+        ]
+      ]
+    }
+  },
+  "camera_poses": {
+    "cam1": {
+      "R": [
+        [
+          1.0,
+          5.23730269705988e-35,
+          1.925929944387236e-34
+        ],
+        [
+          7.745151231335576e-35,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T": [
+        0.0,
+        0.0,
+        2.6727647100921956e-51
+      ]
+    },
+    "cam2_to_cam1": {
+      "R": [
+        [
+          0.08204771117358921,
+          -0.45593303006511365,
+          0.8862241506452074
+        ],
+        [
+          0.3993734738185897,
+          0.8297452806921018,
+          0.3899020358747275
+        ],
+        [
+          -0.9131095232781485,
+          0.3219438479996616,
+          0.2501662591836141
+        ]
+      ],
+      "T": [
+        -2.851487485403683,
+        -1.1508785162906783,
+        2.3772373345300455
+      ]
+    },
+    "cam3_to_cam1": {
+      "R": [
+        [
+          -0.9770926379917353,
+          -0.1919035066264257,
+          0.09199467879629522
+        ],
+        [
+          -0.028129444810829754,
+          0.5449439685466949,
+          0.8380004805960516
+        ],
+        [
+          -0.21094717612944394,
+          0.8162163409838478,
+          -0.537858878883628
+        ]
+      ],
+      "T": [
+        -0.6130051349649169,
+        -2.141183788110175,
+        4.07605389116033
+      ]
+    },
+    "cam4_to_cam1": {
+      "R": [
+        [
+          0.0068819521149614754,
+          0.4549585812631846,
+          -0.8904860066671894
+        ],
+        [
+          -0.6536929562693243,
+          0.675934947348776,
+          0.3402902670904335
+        ],
+        [
+          0.7567285891645424,
+          0.5797625688914366,
+          0.30205497190651204
+        ]
+      ],
+      "T": [
+        2.6825930590080556,
+        -1.4268678866760656,
+        2.213653148859522
+      ]
+    }
+  },
+  "image_sets": {
+    "rgb": [
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image01.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image01.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image01.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image01.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image02.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image02.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image02.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image02.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image03.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image03.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image03.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image03.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image04.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image04.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image04.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image04.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image05.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image05.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image05.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image05.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image06.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image06.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image06.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image06.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image07.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image07.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image07.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image07.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image08.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image08.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image08.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image08.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image09.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image09.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image09.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image09.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image10.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image10.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image10.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image10.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image11.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image11.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image11.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image11.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image12.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image12.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image12.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image12.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image13.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image13.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image13.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image13.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image14.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image14.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image14.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image14.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image15.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image15.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image15.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image15.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image16.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image16.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image16.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image16.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image17.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image17.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image17.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image17.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image18.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image18.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image18.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image18.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image19.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image19.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image19.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image19.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image20.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image20.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image20.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image20.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image21.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image21.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image21.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image21.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image22.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image22.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image22.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image22.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image23.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image23.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image23.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image23.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image24.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image24.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image24.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image24.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image25.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image25.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image25.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image25.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image26.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image26.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image26.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image26.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image27.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image27.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image27.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image27.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image28.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image28.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image28.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image28.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image29.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image29.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image29.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image29.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image30.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image30.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image30.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image30.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image31.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image31.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image31.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image31.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image32.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image32.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image32.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image32.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image33.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image33.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image33.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image33.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image34.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image34.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image34.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image34.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image35.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image35.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image35.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image35.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image36.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image36.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image36.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image36.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image37.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image37.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image37.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image37.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image38.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image38.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image38.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image38.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image39.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image39.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image39.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image39.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image40.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image40.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image40.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image40.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image41.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image41.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image41.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image41.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image42.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image42.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image42.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image42.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image43.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image43.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image43.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image43.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image44.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image44.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image44.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image44.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image45.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image45.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image45.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image45.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image46.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image46.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image46.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image46.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image47.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image47.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image47.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image47.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image48.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image48.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image48.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image48.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image49.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image49.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image49.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image49.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image50.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image50.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image50.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image50.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image51.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image51.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image51.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image51.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image52.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image52.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image52.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image52.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image53.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image53.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image53.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image53.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image54.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image54.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image54.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image54.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image55.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image55.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image55.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image55.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image56.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image56.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image56.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image56.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image57.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image57.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image57.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image57.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image58.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image58.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image58.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image58.jpg"
+      },
+      {
+        "cam1": "./captured/03_18-30\\cam1\\image59.jpg",
+        "cam2": "./captured/03_18-30\\cam2\\image59.jpg",
+        "cam3": "./captured/03_18-30\\cam3\\image59.jpg",
+        "cam4": "./captured/03_18-30\\cam4\\image59.jpg"
+      }
+    ]
+  }
+}
