@@ -10,6 +10,7 @@
 import numpy as np
 import cv2
 import json
+import os
 import ntpath
 from MultiCamSystem import build_multi_camera_system, triangulate_poses, triangulate_frame_pose
 from about import *
@@ -372,6 +373,18 @@ class APFunction:
             return
 
         row_to_del = self.ui.viewer_image_table.tableWidget.selectedIndexes()[0].row()
+
+        # delete image from cam folders
+        file_to_del = self.ui.image_visualizer.list_of_images[row_to_del]
+        for folder in self.ui.image_visualizer.folders_list:
+            path_to_del = os.path.join(folder, file_to_del)
+            if os.path.exists(path_to_del):
+                os.remove(path_to_del)
+                print(f"The file {file_to_del} was deleted from folder {folder}")
+            else:
+                print("The file does not exist")
+
+        # remove row from table and update image shown
         self.ui.viewer_image_table.remove_row(row_to_del)
         self.ui.image_visualizer.list_of_images.pop(row_to_del)
         if row_to_del == len(self.ui.image_visualizer.list_of_images):
