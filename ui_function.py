@@ -336,17 +336,17 @@ class APFunction:
 
     def saveImages(self):
         self.ui.one.saved_img_counter += 1
-        # self.ui.two.saved_img_counter += 1
-        # self.ui.three.saved_img_counter += 1
-        # self.ui.four.saved_img_counter += 1
+        self.ui.two.saved_img_counter += 1
+        self.ui.three.saved_img_counter += 1
+        self.ui.four.saved_img_counter += 1
 
         print('saving actual frame for all cameras as image{:02d}.jpg'.format(self.ui.one.saved_img_counter))
         ts = "image{:02d}.jpg".format(self.ui.one.saved_img_counter)
 
         cv2.imwrite(self.ui.one.output_dir + ts, self.ui.one.get_image())
-        # cv2.imwrite(self.ui.two.output_dir + ts, self.ui.two.get_image())
-        # cv2.imwrite(self.ui.three.output_dir + ts, self.ui.three.get_image())
-        # cv2.imwrite(self.ui.four.output_dir + ts, self.ui.four.get_image())
+        cv2.imwrite(self.ui.two.output_dir + ts, self.ui.two.get_image())
+        cv2.imwrite(self.ui.three.output_dir + ts, self.ui.three.get_image())
+        cv2.imwrite(self.ui.four.output_dir + ts, self.ui.four.get_image())
 
         self.ui.one.image_features.append(ts)
         self.ui.one.update_image_list_signal.emit(True)
